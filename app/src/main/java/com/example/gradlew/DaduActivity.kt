@@ -40,17 +40,17 @@ fun DiceApp() {
         }
 
         val image = when (diceValue) {
-            1 -> R.drawable._195
-            2 -> R.drawable._013
-            3 -> R.drawable._033
-            4 -> R.drawable._047
-            5 -> R.drawable._061
+            1 -> R.drawable.dice_1
+            2 -> R.drawable.dice_2
+            3 -> R.drawable.dice_3
+            4 -> R.drawable.dice_4
+            5 -> R.drawable.dice_5
             else -> {
-                R.drawable._073
+                R.drawable.dice_6
             }
         }
         Image(
-            painter = painterResource(id = R.drawable._159),
+            painter = painterResource(id = R.drawable.dice_1),
             contentDescription = null
         )
 
