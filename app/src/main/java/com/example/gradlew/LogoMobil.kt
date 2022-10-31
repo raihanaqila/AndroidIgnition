@@ -135,7 +135,7 @@ fun showLogoMobil() {
                     modifier = Modifier.fillMaxSize()
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable._034),
+                        painter = painterResource(id = R.drawable._2210),
                         contentDescription = "Mazda RX-7",
                         alignment = Alignment.Center,
                         contentScale = ContentScale.Crop,
