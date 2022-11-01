@@ -22,6 +22,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+
 // Tugas Aplikasi Mobile Computing
 // Tanggal: 25 Oktober 2022
 // Nama: Raihan Aqila Thahir (191344024)
@@ -81,7 +82,7 @@ fun showLogoMobil() {
                     Text(
                         text = "Toyota Supra (Mk.4)",
                         fontSize = 13.sp,
-                        color = Color.Black,
+                        color = Color.White,
                         textAlign = TextAlign.Center
                     )
                     Text(
@@ -142,12 +143,12 @@ fun showLogoMobil() {
                         modifier = Modifier
                             .size(100.dp)
                             .clip(CircleShape)
-                            .border(5.dp, Color.Green, CircleShape)
+                            .border(5.dp, Color(0xff15702b), CircleShape)
                     )
                     Text(
                         text = "Mazda RX-7 (FD)",
                         fontSize = 13.sp,
-                        color = Color.Green,
+                        color = Color(0xff15702b),
                         textAlign = TextAlign.Center
                     )
                     Text(
@@ -246,18 +247,18 @@ fun showLogoMobil() {
                         modifier = Modifier
                             .size(100.dp)
                             .clip(CircleShape)
-                            .border(5.dp, Color.White, CircleShape)
+                            .border(5.dp, Color(0xffe68c8c), CircleShape)
                     )
                     Text(
                         text = "Lamborghini Countach (25th Anniversary)",
                         fontSize = 13.sp,
-                        color = Color.White,
+                        color = Color(0xffe68c8c),
                         textAlign = TextAlign.Center
                     )
                     Text(
                         text = "The HeatSeeker",
                         fontSize = 10.sp,
-                        color = Color.White,
+                        color = Color(0xffe68c8c),
                         textAlign = TextAlign.Center
                     )
                 }
