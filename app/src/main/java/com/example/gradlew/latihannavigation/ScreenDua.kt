@@ -25,7 +25,7 @@ fun ScreenDua(navController: NavController) {
                 backgroundColor = Color(0xffeb8334),
                 contentColor = Color.White
             )
-        ) {5
+        ) {
             Text(text = "Hallo Mahasiswa")
         }
     }
